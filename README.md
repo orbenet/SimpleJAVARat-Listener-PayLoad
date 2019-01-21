@@ -4,12 +4,12 @@ SimpleJAVARAT-Listener-Payload
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 A simple reverse shell that works. 
 
-%%%%%%%%
+
 Or I. Benet
 IT Specialist
 M.IS UoP - Cyber Security - Epsilon Pi Tau
 B.S. Troy - Chemistry - Mathmatics
-%%%%%%%%%
+
 ####################
 
 ~~~Included Files~~~
