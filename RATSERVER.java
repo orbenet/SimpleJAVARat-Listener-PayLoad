@@ -40,6 +40,7 @@ public class RATSERVER {
 					pw.flush();
 				}
 			}
+			scan.close();
 		}
 	}
 	public static void main(String[] args) {
