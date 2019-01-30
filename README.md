@@ -37,6 +37,11 @@ Android USAGE:
 @@@@
 3. Copy classes
 @@@@
-4. Start the Application on an Android Device or VM
+4. add     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    
+    to manifest
 @@@@
-5. Start the RATCLIENT on VICTIM MACHINE
+5. Start the Application on an Android Device or VM
+@@@@
+6. Start the RATCLIENT on VICTIM MACHINE
