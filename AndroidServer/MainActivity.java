@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     public EditText inputext;
     public ScrollView scrolldisplay;
     public LinearLayout ll;
-    ratServer rs;
+    AndroidRatServer rs;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
