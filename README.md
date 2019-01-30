@@ -34,7 +34,7 @@ Android USAGE:
 @@@@
 2. Create a Relative layout with scrollView , editText, and button.
 @@@@
-3. Copy classes
+3. Copy classes from AndroidServer folder into your project
 @@@@
 4. add     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
