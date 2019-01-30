@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollviewone"
+        android:layout_width="374dp"
+        android:layout_height="446dp"
+        android:layout_above="@+id/inputone"
+        android:layout_alignTop="@+id/inputone"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="-448dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="2dp">
+
+        <LinearLayout
+            android:id="@+id/scrollviewLL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="296dp"
+        android:layout_marginLeft="296dp"
+        android:layout_marginBottom="19dp"
+        android:text="Button" />
+
+    <EditText
+        android:id="@+id/inputone"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="18dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
