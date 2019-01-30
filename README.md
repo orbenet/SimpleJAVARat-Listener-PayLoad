@@ -12,15 +12,14 @@ B.S. Troy - Chemistry - Mathmatics//
 @
 ####################
 
-~~~Included Files~~~
-  RATCLIENT.java - Windows Payload that opens up a command-shell
-  RATCLIENT.class - compiled
+v1.1
+ADDED ANDROID SERVER(ATTACKER)
 
-  RATSERVER.java - Simple CLI Listener
-  RATSERVER.class - compiled
+v1:
+CLI RAT SERVER(ATTACKER) + CLIENT(VICTIM)
 
-  ~~~~~~~~~~~~~~~~
-  
+
+
 Regular USAGE:
   @@@@
   1. Start the RATSERVER ON ATTACKING MACHINE (command: java RATSERVER)
